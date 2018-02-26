@@ -1,0 +1,28 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>用户注册</title>
+
+  <script type="text/javascript" src="plugins/jquery-2.0.2.min.js"></script>
+  <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+<h1>注册</h1>
+<form action="#">
+<label>用户名：</label><input type="text" name="userName" id="userName"/><br/>
+<span id="checkUserResult1" style="color: red "> </span><br/>
+<label>密码：</label><input type="password" name="password" id="password"/><br/>
+<span id="checkUserResult2" style="color: red "> </span><br/>
+<label>重复密码：</label><input type="password" name="pwd" id="pwd"/><br/>
+<span id="checkUserResult3" style="color: red "> </span><br/>
+<label>昵称：</label><input type="text" name="nickname" id="nickname"/><br/>
+<span id="checkUserResult4" style="color: red "> </span><br/>
+<label>性别：</label><input type="text" name="sex" id="sex"/><br/>
+<span id="checkUserResult5" style="color: red "> </span><br/>
+<button type="button" id="btn">注册</button>&nbsp;&nbsp;&nbsp;<button type="reset">重置</button>
+</form>
+</body>
+</html>
+
